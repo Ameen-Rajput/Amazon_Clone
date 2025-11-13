@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+    color: white;
+}
+.navigation{
+    height: 65px;
+    background-color: rgb(34, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* ox1 */
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    height: 60px;
+    width: 100%;
+    background-image:url(amazon-logo.png) ;
+    background-size: cover;
+}
+/* ox2 */
+.add-first{
+    font-size: 0.85rem;
+    color: rgb(163, 161, 161);
+}
+.add-sec{
+    display: flex;
+    align-items: center;
+    color: rgb(197, 193, 193);
+    font-size: 1rem;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/* ox3 */
+.nav-search{
+    display: flex;
+    background-color: rgb(240, 153, 71);
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    color: black;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    border: none;
+    width: 100%;
+}
+.search-icon{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.search-icon i{
+    color: black;
+}
+/* ox4 */
+.cart i{
+    font-size: 30px;
+}
+/* 0x5 */
+.panel-tags{
+    height: 50px;
+    background-color: rgb(14, 26, 65);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 8px;
+}
+.panel-opt{
+    width: 90%;
+}
+.icon{
+    margin-right: 60px;
+}
+/* hero-sec */
+.hero-sec{
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    height: 400px;
+    animation: slider 15s infinite;
+}
+@keyframes slider{
+    20%{background-image: url(amazon.jpg);}
+    40%{background-image:url(books.jpg)}
+    60%{background-image: url(kitchen.jpg);}
+    80%{background-image: url(toys.jpg);}
+    100%{background-image: url(makeup.jpg);}
+}
+/* shop-sec */
+.shop-sec{
+    background-color: rgb(189, 243, 225);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin: 5px;
+}
+.box-cont h2{
+    margin-left: 10px;
+    color: black;
+}
+.box-cont a{
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.box-cont a:hover{
+    color: rgb(63, 87, 79);
+}
+.box-img{
+    margin-top: 5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 20px;
+    background-size: cover;
+    height: 300px;
+}
+/* footer */
+.foot-panel1{
+    height: 50px;
+    background-color: rgb(14, 26, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel1:hover{
+    opacity: 0.8;
+}
+.foot-panel2{
+    height: 300px;
+    background-color: rgb(29, 47, 105);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot-panel2 ul a{
+    display: block;
+    margin-top: 10px;
+}
+.foot-panel2 a:hover{
+    text-decoration: underline;
+}
+.foot-panel2 p{
+    font-size: 2rem;
+}
+/* foot sign */
+.foot-sign{
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(160, 160, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-content h2{
+    color: black;
+    text-align: center;
+}
+.foot-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    width: 40%;
+    background-color: rgb(226, 136, 52);
+    color: black;
+}
+button:hover{
+    background-color: #e9b168;
+}
+.foot-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+.foot-para p{
+    color: black;
+}
+.foot-para a{
+    color: rgb(81, 187, 121);
+    text-decoration: none;
+}
+.foot-para a:hover{
+    color: rgb(204, 117, 58);
+}
+.last-footer{
+    height: 300px;
+    background-color: rgb(17, 24, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-footer a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.first-footer a:hover{
+    text-decoration: underline;
+}
+.second-footer{
+    margin-top: 10px;
+}
